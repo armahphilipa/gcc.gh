@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    background-color: rgb(200, 224, 251);
+}
+
+.top{
+    height: 170px;
+    background-color: rgb(19, 19, 91);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 60px;
+    margin: 0px;
+}
+
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table,th,td{
+border: 1px solid black;
+border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    text-align: left;
+}
+
+tr:hover{background-color: #b69c9c;
+}
+
+caption{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
